@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/Freebie/static/css/main.4da06481.chunk.css",
-    "main.js": "/Freebie/static/js/main.25b3094d.chunk.js",
-    "main.js.map": "/Freebie/static/js/main.25b3094d.chunk.js.map",
+    "main.css": "/Freebie/static/css/main.672b3e7b.chunk.css",
+    "main.js": "/Freebie/static/js/main.b8895031.chunk.js",
+    "main.js.map": "/Freebie/static/js/main.b8895031.chunk.js.map",
     "runtime-main.js": "/Freebie/static/js/runtime-main.3c3c4036.js",
     "runtime-main.js.map": "/Freebie/static/js/runtime-main.3c3c4036.js.map",
-    "static/css/2.11829350.chunk.css": "/Freebie/static/css/2.11829350.chunk.css",
-    "static/js/2.04e84478.chunk.js": "/Freebie/static/js/2.04e84478.chunk.js",
-    "static/js/2.04e84478.chunk.js.map": "/Freebie/static/js/2.04e84478.chunk.js.map",
+    "static/js/2.bf7d6c90.chunk.js": "/Freebie/static/js/2.bf7d6c90.chunk.js",
+    "static/js/2.bf7d6c90.chunk.js.map": "/Freebie/static/js/2.bf7d6c90.chunk.js.map",
     "index.html": "/Freebie/index.html",
-    "precache-manifest.df1a7d1e9833305b5b9fafec20490b0a.js": "/Freebie/precache-manifest.df1a7d1e9833305b5b9fafec20490b0a.js",
+    "precache-manifest.6e42437302116ffb8c0c15589cbdf20f.js": "/Freebie/precache-manifest.6e42437302116ffb8c0c15589cbdf20f.js",
     "service-worker.js": "/Freebie/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/Freebie/static/css/2.11829350.chunk.css.map",
-    "static/css/main.4da06481.chunk.css.map": "/Freebie/static/css/main.4da06481.chunk.css.map",
-    "static/js/2.04e84478.chunk.js.LICENSE.txt": "/Freebie/static/js/2.04e84478.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/Freebie/static/media/Background.4a0449a7.svg",
+    "static/css/main.672b3e7b.chunk.css.map": "/Freebie/static/css/main.672b3e7b.chunk.css.map",
+    "static/js/2.bf7d6c90.chunk.js.LICENSE.txt": "/Freebie/static/js/2.bf7d6c90.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/Freebie/static/media/Background.4a0449a7.svg",
     "static/media/clouds.styles.scss": "/Freebie/static/media/Clouds.95158966.svg",
     "static/media/sign-up.styles.scss": "/Freebie/static/media/google-play.e3ea015c.svg",
     "static/media/HeaderSect.styles.scss": "/Freebie/static/media/phone.f77749a4.png",
@@ -22,9 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3c3c4036.js",
-    "static/css/2.11829350.chunk.css",
-    "static/js/2.04e84478.chunk.js",
-    "static/css/main.4da06481.chunk.css",
-    "static/js/main.25b3094d.chunk.js"
+    "static/js/2.bf7d6c90.chunk.js",
+    "static/css/main.672b3e7b.chunk.css",
+    "static/js/main.b8895031.chunk.js"
   ]
 }
