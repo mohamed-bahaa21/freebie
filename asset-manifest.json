@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Mohamed-Elzohary/Freebie/static/css/main.6309649e.chunk.css",
-    "main.js": "/Mohamed-Elzohary/Freebie/static/js/main.ea42b6ab.chunk.js",
-    "main.js.map": "/Mohamed-Elzohary/Freebie/static/js/main.ea42b6ab.chunk.js.map",
-    "runtime-main.js": "/Mohamed-Elzohary/Freebie/static/js/runtime-main.076b6ace.js",
-    "runtime-main.js.map": "/Mohamed-Elzohary/Freebie/static/js/runtime-main.076b6ace.js.map",
-    "static/css/2.11829350.chunk.css": "/Mohamed-Elzohary/Freebie/static/css/2.11829350.chunk.css",
-    "static/js/2.04e84478.chunk.js": "/Mohamed-Elzohary/Freebie/static/js/2.04e84478.chunk.js",
-    "static/js/2.04e84478.chunk.js.map": "/Mohamed-Elzohary/Freebie/static/js/2.04e84478.chunk.js.map",
-    "index.html": "/Mohamed-Elzohary/Freebie/index.html",
-    "precache-manifest.d0366049efec6c7b490e1c48e27946b1.js": "/Mohamed-Elzohary/Freebie/precache-manifest.d0366049efec6c7b490e1c48e27946b1.js",
-    "service-worker.js": "/Mohamed-Elzohary/Freebie/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/Mohamed-Elzohary/Freebie/static/css/2.11829350.chunk.css.map",
-    "static/css/main.6309649e.chunk.css.map": "/Mohamed-Elzohary/Freebie/static/css/main.6309649e.chunk.css.map",
-    "static/js/2.04e84478.chunk.js.LICENSE.txt": "/Mohamed-Elzohary/Freebie/static/js/2.04e84478.chunk.js.LICENSE.txt",
-    "static/media/clouds.styles.scss": "/Mohamed-Elzohary/Freebie/static/media/7. Clouds.95158966.svg",
-    "static/media/HeaderSect.styles.scss": "/Mohamed-Elzohary/Freebie/static/media/8. phone.f77749a4.png",
-    "static/media/App.css": "/Mohamed-Elzohary/Freebie/static/media/7d. Background.4a0449a7.svg",
-    "static/media/sign-up.styles.scss": "/Mohamed-Elzohary/Freebie/static/media/google-play.e3ea015c.svg",
-    "static/media/logo.7ffb0fe7.svg": "/Mohamed-Elzohary/Freebie/static/media/logo.7ffb0fe7.svg"
+    "main.css": "/Freebie/static/css/main.9a4dd6e4.chunk.css",
+    "main.js": "/Freebie/static/js/main.c4d38d47.chunk.js",
+    "main.js.map": "/Freebie/static/js/main.c4d38d47.chunk.js.map",
+    "runtime-main.js": "/Freebie/static/js/runtime-main.3c3c4036.js",
+    "runtime-main.js.map": "/Freebie/static/js/runtime-main.3c3c4036.js.map",
+    "static/css/2.11829350.chunk.css": "/Freebie/static/css/2.11829350.chunk.css",
+    "static/js/2.04e84478.chunk.js": "/Freebie/static/js/2.04e84478.chunk.js",
+    "static/js/2.04e84478.chunk.js.map": "/Freebie/static/js/2.04e84478.chunk.js.map",
+    "index.html": "/Freebie/index.html",
+    "precache-manifest.412a2c6c48eeb38d94142c5fc6d75f42.js": "/Freebie/precache-manifest.412a2c6c48eeb38d94142c5fc6d75f42.js",
+    "service-worker.js": "/Freebie/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/Freebie/static/css/2.11829350.chunk.css.map",
+    "static/css/main.9a4dd6e4.chunk.css.map": "/Freebie/static/css/main.9a4dd6e4.chunk.css.map",
+    "static/js/2.04e84478.chunk.js.LICENSE.txt": "/Freebie/static/js/2.04e84478.chunk.js.LICENSE.txt",
+    "static/media/clouds.styles.scss": "/Freebie/static/media/7. Clouds.95158966.svg",
+    "static/media/HeaderSect.styles.scss": "/Freebie/static/media/8. phone.f77749a4.png",
+    "static/media/App.css": "/Freebie/static/media/7d. Background.4a0449a7.svg",
+    "static/media/sign-up.styles.scss": "/Freebie/static/media/google-play.e3ea015c.svg",
+    "static/media/logo.7ffb0fe7.svg": "/Freebie/static/media/logo.7ffb0fe7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.076b6ace.js",
+    "static/js/runtime-main.3c3c4036.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.04e84478.chunk.js",
-    "static/css/main.6309649e.chunk.css",
-    "static/js/main.ea42b6ab.chunk.js"
+    "static/css/main.9a4dd6e4.chunk.css",
+    "static/js/main.c4d38d47.chunk.js"
   ]
 }
