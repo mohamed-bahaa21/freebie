@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Freebie/static/css/main.fa6906c7.chunk.css",
+    "main.css": "/Freebie/static/css/main.4da06481.chunk.css",
     "main.js": "/Freebie/static/js/main.25b3094d.chunk.js",
     "main.js.map": "/Freebie/static/js/main.25b3094d.chunk.js.map",
     "runtime-main.js": "/Freebie/static/js/runtime-main.3c3c4036.js",
@@ -9,10 +9,10 @@
     "static/js/2.04e84478.chunk.js": "/Freebie/static/js/2.04e84478.chunk.js",
     "static/js/2.04e84478.chunk.js.map": "/Freebie/static/js/2.04e84478.chunk.js.map",
     "index.html": "/Freebie/index.html",
-    "precache-manifest.747a3301bfe7764c7af7e2a360a19af8.js": "/Freebie/precache-manifest.747a3301bfe7764c7af7e2a360a19af8.js",
+    "precache-manifest.df1a7d1e9833305b5b9fafec20490b0a.js": "/Freebie/precache-manifest.df1a7d1e9833305b5b9fafec20490b0a.js",
     "service-worker.js": "/Freebie/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/Freebie/static/css/2.11829350.chunk.css.map",
-    "static/css/main.fa6906c7.chunk.css.map": "/Freebie/static/css/main.fa6906c7.chunk.css.map",
+    "static/css/main.4da06481.chunk.css.map": "/Freebie/static/css/main.4da06481.chunk.css.map",
     "static/js/2.04e84478.chunk.js.LICENSE.txt": "/Freebie/static/js/2.04e84478.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Freebie/static/media/Background.4a0449a7.svg",
     "static/media/clouds.styles.scss": "/Freebie/static/media/Clouds.95158966.svg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.3c3c4036.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.04e84478.chunk.js",
-    "static/css/main.fa6906c7.chunk.css",
+    "static/css/main.4da06481.chunk.css",
     "static/js/main.25b3094d.chunk.js"
   ]
 }
