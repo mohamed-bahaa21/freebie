@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b2bedc99b149d84cc3d1dace68d8317",
+    "revision": "c0470290c9d05f89713ff65779d5e156",
     "url": "/Freebie/index.html"
   },
   {
-    "revision": "e0232ab26b91c75e5ee2",
+    "revision": "49c007c502ff13f1e688",
     "url": "/Freebie/static/css/2.f3cffc9e.chunk.css"
   },
   {
-    "revision": "29035190329e172bad84",
+    "revision": "795a115e68a5ca3ef560",
     "url": "/Freebie/static/css/main.2fcc9696.chunk.css"
   },
   {
-    "revision": "e0232ab26b91c75e5ee2",
-    "url": "/Freebie/static/js/2.bd25138d.chunk.js"
+    "revision": "49c007c502ff13f1e688",
+    "url": "/Freebie/static/js/2.d30a8cee.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/Freebie/static/js/2.bd25138d.chunk.js.LICENSE.txt"
+    "url": "/Freebie/static/js/2.d30a8cee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "29035190329e172bad84",
-    "url": "/Freebie/static/js/main.2f663574.chunk.js"
+    "revision": "795a115e68a5ca3ef560",
+    "url": "/Freebie/static/js/main.f8f3cd90.chunk.js"
   },
   {
     "revision": "697fa292f001c43e62e4",
