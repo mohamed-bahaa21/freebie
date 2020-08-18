@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Freebie/static/css/main.2fcc9696.chunk.css",
-    "main.js": "/Freebie/static/js/main.f8f3cd90.chunk.js",
-    "main.js.map": "/Freebie/static/js/main.f8f3cd90.chunk.js.map",
+    "main.js": "/Freebie/static/js/main.88188b9b.chunk.js",
+    "main.js.map": "/Freebie/static/js/main.88188b9b.chunk.js.map",
     "runtime-main.js": "/Freebie/static/js/runtime-main.3c3c4036.js",
     "runtime-main.js.map": "/Freebie/static/js/runtime-main.3c3c4036.js.map",
     "static/css/2.f3cffc9e.chunk.css": "/Freebie/static/css/2.f3cffc9e.chunk.css",
     "static/js/2.d30a8cee.chunk.js": "/Freebie/static/js/2.d30a8cee.chunk.js",
     "static/js/2.d30a8cee.chunk.js.map": "/Freebie/static/js/2.d30a8cee.chunk.js.map",
     "index.html": "/Freebie/index.html",
-    "precache-manifest.670a84b87b555af3808f7faaf8e0bc40.js": "/Freebie/precache-manifest.670a84b87b555af3808f7faaf8e0bc40.js",
+    "precache-manifest.277d6df44cb5bab95cee3a7443be5539.js": "/Freebie/precache-manifest.277d6df44cb5bab95cee3a7443be5539.js",
     "service-worker.js": "/Freebie/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/Freebie/static/css/2.f3cffc9e.chunk.css.map",
     "static/css/main.2fcc9696.chunk.css.map": "/Freebie/static/css/main.2fcc9696.chunk.css.map",
@@ -25,6 +25,6 @@
     "static/css/2.f3cffc9e.chunk.css",
     "static/js/2.d30a8cee.chunk.js",
     "static/css/main.2fcc9696.chunk.css",
-    "static/js/main.f8f3cd90.chunk.js"
+    "static/js/main.88188b9b.chunk.js"
   ]
 }

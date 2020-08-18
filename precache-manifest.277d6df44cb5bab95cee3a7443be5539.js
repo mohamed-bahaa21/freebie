@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0470290c9d05f89713ff65779d5e156",
+    "revision": "b45b2417633f3903508e4dfb546014af",
     "url": "/Freebie/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Freebie/static/css/2.f3cffc9e.chunk.css"
   },
   {
-    "revision": "795a115e68a5ca3ef560",
+    "revision": "d0f609d94ce4ef070960",
     "url": "/Freebie/static/css/main.2fcc9696.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Freebie/static/js/2.d30a8cee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "795a115e68a5ca3ef560",
-    "url": "/Freebie/static/js/main.f8f3cd90.chunk.js"
+    "revision": "d0f609d94ce4ef070960",
+    "url": "/Freebie/static/js/main.88188b9b.chunk.js"
   },
   {
     "revision": "697fa292f001c43e62e4",
