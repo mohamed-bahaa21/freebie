@@ -1,0 +1,71 @@
+$sub-color: grey;
+$main-color: black;
+
+$light-blue: #f7f9fc;
+$dark-blue: #8f9bb3;
+$dark-green: #0fada5;
+
+
+@mixin shrinkLabel {
+  top: -23px;
+  font-size: 12px;
+  font-weight: bold;
+  color: $main-color;
+  opacity: 1;
+}
+
+.group {
+  position: relative;
+  margin: 1.5rem 0;
+  z-index: 5;
+  box-shadow: 0px 0px 15px -10px #333;
+
+  .form-input {
+    z-index: 5;
+    background: none;
+    background-color: $light-blue;
+    color: $sub-color;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, .2);
+    border-radius: 13px;
+    margin: 25px 0;
+
+    &:focus {
+      outline: none;
+    }
+    
+    & ~ .form-input-label {
+      font-size: 14px;
+      font-weight: bold;
+      margin-left: 0.5rem;
+      margin-top: 0.25rem;
+      opacity: 0.5;
+    }
+
+    &:focus ~ .form-input-label {
+      @include shrinkLabel();
+    }
+
+    .form-input::placeholder {
+      color: $dark-blue;
+    }
+  }
+
+  .form-input-label {
+    color: $dark-blue;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 300ms ease all;
+
+    &.shrink {
+      @include shrinkLabel();
+    }
+  }
+}

@@ -1,0 +1,54 @@
+$sub-color: grey;
+$main-color: black;
+
+$light-blue: #f7f9fc;
+$dark-blue: #8f9bb3;
+$dark-green: #0fada5;
+
+.custom-button {
+  min-width: 100%;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 4rem;
+  font-size: 14px;
+  background-color: $dark-green;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 17px -7px #333;
+
+  &:hover {
+    background-color: white;
+    color: $dark-green;
+    border: 1px solid $dark-green;
+  }
+
+  &.google-sign-in {
+    background-color: #4285f4;
+    color: white;
+
+    &:hover {
+      background-color: #357ae8;
+      border: none;
+    }
+  }
+
+  &.inverted {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+    &:hover {
+      background-color: black;
+      color: white;
+      border: none;
+    }
+  }
+}

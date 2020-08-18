@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="525px" height="122px" viewBox="0 0 525 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 12</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WaitList-page-2" transform="translate(-131.000000, -191.000000)" fill="#000000">
+            <g id="Group-12" transform="translate(131.000000, 191.000000)">
+                <text id="A-free-mobile-app-to" font-family="SFProRounded-Semibold, SF Pro Rounded" font-size="30" font-weight="500">
+                    <tspan x="0" y="29">A free mobile app to Find or Donate free </tspan>
+                    <tspan x="0" y="65">stuff in your community.</tspan>
+                </text>
+                <text id="Sign-up-and-we’ll-se" opacity="0.5" font-family="SFProRounded-Regular, SF Pro Rounded" font-size="20" font-weight="normal" line-spacing="40">
+                    <tspan x="0" y="101">Sign up and we’ll send you a link on launch date!</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

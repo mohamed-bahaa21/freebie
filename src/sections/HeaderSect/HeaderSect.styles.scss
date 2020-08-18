@@ -1,0 +1,149 @@
+.header-sect {
+}
+
+.signup-col {
+}
+
+.chars-col {
+  background: url('../../assets/illustration.svg');
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: center bottom; 
+}
+
+.mobile-col {
+  background: url('../../assets/phone.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 50px;
+  }
+}
+
+
+
+@media screen 
+  and (max-device-width: 1200px){ 
+    .no-title {
+      display: none;
+    }
+    .chars-col{
+      left: 25px;
+      background-position: center right;
+      box-shadow: 0px 0px 25px -5px #333;
+      border-radius: 15px;
+    }
+    .mobile-col {
+      display: none;
+    }
+}
+
+@media screen 
+  and (max-device-width: 800px){ 
+    .chars-col{
+      display: none;
+    }
+      
+}
+
+@media screen 
+  and (max-device-width: 600px){ 
+      
+}
+
+
+
+// // ---------------------------------------------------------------------------
+// /* Laptop */
+// /* ----------- Non-Retina Screens ----------- */
+// @media screen 
+//   and (min-device-width: 1200px) 
+//   and (max-device-width: 1600px) 
+//   and (-webkit-min-device-pixel-ratio: 1) { 
+// }
+
+// /* ----------- Retina Screens ----------- */
+// @media screen 
+//   and (min-device-width: 1200px) 
+//   and (max-device-width: 1600px) 
+//   and (-webkit-min-device-pixel-ratio: 2)
+//   and (min-resolution: 192dpi) { 
+// }
+
+
+
+
+
+
+
+// // ----------------------------------------------------------------------------
+// /* iPad */
+// /* Portrait and Landscape */
+// @media only screen 
+//   and (min-device-width: 768px) 
+//   and (max-device-width: 1024px) 
+//   and (-webkit-min-device-pixel-ratio: 1) {
+
+// }
+
+// /* Portrait */
+// @media only screen 
+//   and (min-device-width: 768px) 
+//   and (max-device-width: 1024px) 
+//   and (orientation: portrait) 
+//   and (-webkit-min-device-pixel-ratio: 1) {
+
+// }
+
+// /* Landscape */
+// @media only screen 
+//   and (min-device-width: 768px) 
+//   and (max-device-width: 1024px) 
+//   and (orientation: landscape) 
+//   and (-webkit-min-device-pixel-ratio: 1) {
+
+// }
+
+
+
+
+
+
+
+// // ----------------------------------------------------------------------------------------------------
+// /* iPhone */
+// /* ----------- iPhone X ----------- */
+
+// /* Portrait and Landscape */
+// @media only screen 
+//   and (min-device-width: 375px) 
+//   and (max-device-width: 812px) 
+//   and (-webkit-min-device-pixel-ratio: 3) { 
+
+// }
+
+// /* Portrait */
+// @media only screen 
+//   and (min-device-width: 375px) 
+//   and (max-device-width: 812px) 
+//   and (-webkit-min-device-pixel-ratio: 3)
+//   and (orientation: portrait) { 
+
+// }
+
+// /* Landscape */
+// @media only screen 
+//   and (min-device-width: 375px) 
+//   and (max-device-width: 812px) 
+//   and (-webkit-min-device-pixel-ratio: 3)
+//   and (orientation: landscape) { 
+
+// }

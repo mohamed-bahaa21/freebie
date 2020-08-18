@@ -1,0 +1,36 @@
+.footer-sect {  
+  height: 50px;
+  margin: 2rem 0;
+  
+  .footer-row {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  hr {
+    opacity: 0.5;
+  }
+
+  span {
+    color: gray;
+  }
+
+  a {
+    margin: 0 1rem;
+    color: gray;
+  }
+}
+@media screen 
+  and (max-device-width: 1200px){ 
+}
+
+@media screen 
+  and (max-device-width: 800px){ 
+    .footer-cont {
+      
+    }
+    .footer-row {
+      
+    }
+    
+}

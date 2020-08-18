@@ -1,0 +1,59 @@
+.clouds-cont {
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+  }
+  
+  .clouds1 {
+    background: url('../../assets/Clouds.svg');
+    position: relative;
+    z-index: 1;
+    background-repeat: no-repeat;
+    
+    width: 500px;
+    height: 250px;
+    background-position: top;
+  
+    left: 0%;
+  
+    animation: moveFirst 25s linear 0.2;
+    animation-iteration-count: infinite;
+  }
+  
+  .clouds2 {
+    background: url('../../assets/Clouds.svg');
+    position: relative;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    opacity: 0.25;
+    
+    width: 350px;
+    height: 100px;
+    background-position: top;
+  
+    left: 0%;
+  
+    animation: moveSecond 15s linear 0.3;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes moveFirst {
+    from {
+      left: -25%;
+    }
+    to {
+      left: 100%;
+    }
+  }
+  
+  @keyframes moveSecond {
+    from {
+      left: -25%;
+    }
+    to {
+      left: 100%;
+    }
+  }
+  
+  
