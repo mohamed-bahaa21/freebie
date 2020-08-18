@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/Freebie/static/css/main.672b3e7b.chunk.css",
-    "main.js": "/Freebie/static/js/main.b8895031.chunk.js",
-    "main.js.map": "/Freebie/static/js/main.b8895031.chunk.js.map",
+    "main.css": "/Freebie/static/css/main.2fcc9696.chunk.css",
+    "main.js": "/Freebie/static/js/main.2f663574.chunk.js",
+    "main.js.map": "/Freebie/static/js/main.2f663574.chunk.js.map",
     "runtime-main.js": "/Freebie/static/js/runtime-main.3c3c4036.js",
     "runtime-main.js.map": "/Freebie/static/js/runtime-main.3c3c4036.js.map",
-    "static/js/2.bf7d6c90.chunk.js": "/Freebie/static/js/2.bf7d6c90.chunk.js",
-    "static/js/2.bf7d6c90.chunk.js.map": "/Freebie/static/js/2.bf7d6c90.chunk.js.map",
+    "static/css/2.f3cffc9e.chunk.css": "/Freebie/static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.bd25138d.chunk.js": "/Freebie/static/js/2.bd25138d.chunk.js",
+    "static/js/2.bd25138d.chunk.js.map": "/Freebie/static/js/2.bd25138d.chunk.js.map",
     "index.html": "/Freebie/index.html",
-    "precache-manifest.6e42437302116ffb8c0c15589cbdf20f.js": "/Freebie/precache-manifest.6e42437302116ffb8c0c15589cbdf20f.js",
+    "precache-manifest.7845d01d40f9ebdfa5c1acab44b89e97.js": "/Freebie/precache-manifest.7845d01d40f9ebdfa5c1acab44b89e97.js",
     "service-worker.js": "/Freebie/service-worker.js",
-    "static/css/main.672b3e7b.chunk.css.map": "/Freebie/static/css/main.672b3e7b.chunk.css.map",
-    "static/js/2.bf7d6c90.chunk.js.LICENSE.txt": "/Freebie/static/js/2.bf7d6c90.chunk.js.LICENSE.txt",
+    "static/css/2.f3cffc9e.chunk.css.map": "/Freebie/static/css/2.f3cffc9e.chunk.css.map",
+    "static/css/main.2fcc9696.chunk.css.map": "/Freebie/static/css/main.2fcc9696.chunk.css.map",
+    "static/js/2.bd25138d.chunk.js.LICENSE.txt": "/Freebie/static/js/2.bd25138d.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/Freebie/static/media/Background.4a0449a7.svg",
     "static/media/clouds.styles.scss": "/Freebie/static/media/Clouds.95158966.svg",
     "static/media/sign-up.styles.scss": "/Freebie/static/media/google-play.e3ea015c.svg",
@@ -20,8 +22,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3c3c4036.js",
-    "static/js/2.bf7d6c90.chunk.js",
-    "static/css/main.672b3e7b.chunk.css",
-    "static/js/main.b8895031.chunk.js"
+    "static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.bd25138d.chunk.js",
+    "static/css/main.2fcc9696.chunk.css",
+    "static/js/main.2f663574.chunk.js"
   ]
 }
