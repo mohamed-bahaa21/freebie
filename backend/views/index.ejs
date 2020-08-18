@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Waitlist</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(18, 110, 185);
+            font-family: sans-serif;
+        }
+        div {
+            background-color: #E9EAF8;
+            display: inline-block;
+            border: 2px solid;
+            padding: 0;
+        }
+        ol {
+            padding: 1rem 2rem;
+        }
+        li {
+            background-color: #DFE0EE;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Freebie 2020-2021</h1>
+    <br>
+
+
+    <div>
+        <ol>
+            <% users.forEach(function(user) { %>
+            <li>
+                <h3><%= user.email %></h3>
+                <span><%= user.name %></span>
+            </li>
+            <hr>
+            <% }) %>
+        </ol>
+    </div>
+
+
 </body>
+
 </html>
