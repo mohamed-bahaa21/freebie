@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const User = require('../models/user.model')
 
-router.route('/').get((req, res) => {
+router.route('*').get((req, res) => {
     res.render('index')
     // User.find()
     //     .then(users => res.json(users))

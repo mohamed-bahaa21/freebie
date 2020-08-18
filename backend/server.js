@@ -15,7 +15,8 @@ app.use(
     express.static(path.join(__dirname, 'public')),
 )
 
-const uri = process.env.ATLAS_URI;
+const ATLAS_URI = "mongodb+srv://mohammad123:mohammad123@blogdb-fslqm.mongodb.net/freebie?retryWrites=true&w=majority";
+const uri = ATLAS_URI;
 mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
 const connection = mongoose.connection
 connection.once('open', () => {
@@ -24,6 +25,5 @@ connection.once('open', () => {
 
 const usersRoutes = require('./routes/users')
 app.use('/users', usersRoutes)
-app.use('/*', usersRoutes)
 
 app.listen(port, () => console.log(`Port: ${port}`));
