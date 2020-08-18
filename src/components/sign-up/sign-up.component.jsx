@@ -44,7 +44,7 @@ class SignUp extends React.Component {
 
     console.log(user);
 
-    axios.post(`${process.env.baseURL}`, user)
+    axios.post("https://freebie-project.herokuapp.com/users/add", user)
       .then(res => console.log(res.data));
 
     this.setState({
