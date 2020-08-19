@@ -38,8 +38,11 @@
         <ol>
             <% users.forEach(function(user) { %>
             <li>
-                <h3><%= user.email %></h3>
-                <span><%= user.phone %></span>
+                <span><strong>Name: <%= user.name %></strong></span>
+                <br>
+                <span>Phone: <%= user.phone %></span>
+                <br>
+                <span>Email: <%= user.email %></span>
             </li>
             <hr>
             <% }) %>

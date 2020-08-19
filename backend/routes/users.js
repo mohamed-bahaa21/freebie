@@ -13,16 +13,48 @@ router.route('*').get((req, res) => {
 })
 
 router.route('/add').post((req, res) => {
+    const name = req.body.name
     const phone = req.body.phone
     const email = req.body.email
 
-    const newUser = new User({ phone, email })
+    var msg = []
+
+    if(email.length <=0 && phone.length <= 0){
+        var newMsg = {
+            data: "You should fill either email or phone",
+            type: "danger"
+        }
+        res.json(newMsg)
+    } 
+    
+    if (name.length <= 3) {
+        var newMsg = {
+            data: "Name length should be more than 3 chars",
+            type: "danger"
+        }
+        res.json(newMsg)
+    } 
+    
+    if (phone.length < 5) {
+        var newMsg = {
+            data: "Phone number should be more than 5",
+            type: "danger"
+        }
+        res.json(newMsg)
+    }
+
+    const newUser = new User({ name, phone, email })
 
     newUser.save()
-        .then(() => res.json('You Signed Up Successfuly!'))
+        .then(() => res.json({
+            data: 'You Signed Up Successfuly!',
+            type: "success"
+        }))
         .catch(err => {
-            res.json("Try Again later")
-            res.status(400).json('Error: ' + err)
+            res.json({
+                data: "Try Again later",
+                type: "danger"
+            })
         })
 })
 

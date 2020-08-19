@@ -6,14 +6,14 @@
 
 .chars-col {
   background: url('../../assets/illustration.svg');
-  background-size: 85%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center bottom; 
 }
 
 .mobile-col {
   background: url('../../assets/phone.png');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center bottom;
 }

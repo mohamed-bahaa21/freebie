@@ -14,17 +14,27 @@ class SignUp extends React.Component {
     super(props);
 
     this.flash = this.flash.bind(this)
+    this.onChangeName = this.onChangeName.bind(this)
     this.onChangePhone = this.onChangePhone.bind(this)
     this.onChangeEmail = this.onChangeEmail.bind(this)
     this.onSubmit = this.onSubmit.bind(this)
 
     this.state = {
+      name: '',
       phone: '',
       email: '',
-      msg: ''
+      msg: {
+        data: '',
+        type: ''
+      }
     }
   }
 
+  onChangeName(e) {
+    this.setState({
+      name: e.target.value
+    })
+  }
   onChangePhone(e) {
     this.setState({
       phone: e.target.value
@@ -40,28 +50,31 @@ class SignUp extends React.Component {
     e.preventDefault()
 
     const user = {
+      name: this.state.name,
       phone: this.state.phone,
       email: this.state.email
     }
 
     console.log(user);
 
-    axios.post("https://freebie-project.herokuapp.com/users/add", user)
+    const link = "https://freebie-project.herokuapp.com/users/add"
+    axios.post("http://localhost:5000/users/add", user)
       .then(res => {
+        console.log(res.data);
         this.setState({
           msg: res.data,
+          name: '',
           phone: '',
           email: ''
         })
       });
   }
-
   flash() {
     const msg = this.state.msg;
-    if (msg !== "") {
+    if (msg) {
       return (
-        <Alert variant="success">
-          <span className='flash'>You Signed Up Successfully!</span>
+        <Alert variant={msg.type}>
+          <span className='flash'>{msg.data}</span>
         </Alert>
       )
     }
@@ -69,16 +82,24 @@ class SignUp extends React.Component {
   }
 
   render() {
-    const { phone, email } = this.state;
+    const { msg, name, phone, email } = this.state;
     return (
       <div className='sign-up'>
-
+        
         {this.flash()}
 
         <form className='sign-up-form' onSubmit={this.onSubmit}>
 
           <FormInput
             required
+            type='text'
+            name='name'
+            value={name}
+            onChange={this.onChangeName}
+            label='Full Name'
+          />
+
+          <FormInput
             type='number'
             name='phone'
             value={phone}
@@ -88,12 +109,11 @@ class SignUp extends React.Component {
 
           <p className="break-line">
             <span className="line-left">_____________</span>
-            And
+            Or
             <span className="line-right">_____________</span>
           </p>
 
           <FormInput
-            required
             type='email'
             name='email'
             value={email}
