@@ -57,8 +57,7 @@ class SignUp extends React.Component {
 
     console.log(user);
 
-    const link = "https://freebie-project.herokuapp.com/users/add"
-    axios.post("http://localhost:5000/users/add", user)
+    axios.post("https://freebie-project.herokuapp.com/users/add", user)
       .then(res => {
         console.log(res.data);
         this.setState({
@@ -82,7 +81,7 @@ class SignUp extends React.Component {
   }
 
   render() {
-    const { msg, name, phone, email } = this.state;
+    const { name, phone, email } = this.state;
     return (
       <div className='sign-up'>
         
