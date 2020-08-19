@@ -13,19 +13,19 @@ class SignUp extends React.Component {
   constructor(props) {
     super(props);
 
-    this.onChangeName = this.onChangeName.bind(this)
+    this.onChangePhone = this.onChangePhone.bind(this)
     this.onChangeEmail = this.onChangeEmail.bind(this)
     this.onSubmit = this.onSubmit.bind(this)
 
     this.state = {
-      name: '',
+      phone: '',
       email: '',
     }
   }
 
-  onChangeName(e) {
+  onChangePhone(e) {
     this.setState({
-      name: e.target.value
+      phone: e.target.value
     })
   }
   onChangeEmail(e) {
@@ -38,7 +38,7 @@ class SignUp extends React.Component {
     e.preventDefault()
 
     const user = {
-      name: this.state.name,
+      phone: this.state.phone,
       email: this.state.email
     }
 
@@ -48,35 +48,30 @@ class SignUp extends React.Component {
       .then(res => console.log(res.data));
 
     this.setState({
-      name: '',
+      phone: '',
       email: ''
     })
   }
 
 
-
-
-
-
-
-
   render() {
-    const { name, email } = this.state;
+    const { phone, email } = this.state;
     return (
       <div className='sign-up'>
         <form className='sign-up-form' onSubmit={this.onSubmit}>
+
           <FormInput
             required
-            type='text'
-            name='displayName'
-            value={name}
-            onChange={this.onChangeName}
-            label='Display Name'
+            type='number'
+            name='phone'
+            value={phone}
+            onChange={this.onChangePhone}
+            label='Phone Number'
           />
 
           <p className="break-line">
             <span className="line-left">_____________</span>
-            Or
+            And
             <span className="line-right">_____________</span>
           </p>
 
@@ -86,7 +81,7 @@ class SignUp extends React.Component {
             name='email'
             value={email}
             onChange={this.onChangeEmail}
-            label='Email'
+            label='E-mail Address'
           />
 
           <CustomButton type='submit'>Get Started</CustomButton>

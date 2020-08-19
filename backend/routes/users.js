@@ -13,14 +13,17 @@ router.route('*').get((req, res) => {
 })
 
 router.route('/add').post((req, res) => {
-    const name = req.body.name
+    const phone = req.body.phone
     const email = req.body.email
 
-    const newUser = new User({ name, email })
+    const newUser = new User({ phone, email })
 
     newUser.save()
-        .then(() => res.json('User Added!'))
-        .catch(err => res.status(400).json('Error: ' + err))
+        .then(() => res.json('You Signed Up Successfuly!'))
+        .catch(err => {
+            res.json("Try Again later")
+            res.status(400).json('Error: ' + err)
+        })
 })
 
 module.exports = router
