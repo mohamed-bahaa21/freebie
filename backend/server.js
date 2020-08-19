@@ -15,9 +15,8 @@ app.use(
     express.static(path.join(__dirname, 'public')),
 )
 
-const ATLAS_URI = "mongodb+srv://mohammad123:mohammad123@blogdb-fslqm.mongodb.net/freebie?retryWrites=true&w=majority";
-const uri = ATLAS_URI;
-mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
+
+mongoose.connect(process.env.ATLAS_URI, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
 const connection = mongoose.connection
 connection.once('open', () => {
     console.log("MongoDB connection Started");
