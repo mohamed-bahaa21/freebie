@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios'
 // import {postUrl} from '../../postUrls'
 
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Alert } from 'react-bootstrap';
 
 import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-button.component';
@@ -13,6 +13,7 @@ class SignUp extends React.Component {
   constructor(props) {
     super(props);
 
+    this.flash = this.flash.bind(this)
     this.onChangePhone = this.onChangePhone.bind(this)
     this.onChangeEmail = this.onChangeEmail.bind(this)
     this.onSubmit = this.onSubmit.bind(this)
@@ -20,6 +21,7 @@ class SignUp extends React.Component {
     this.state = {
       phone: '',
       email: '',
+      msg: ''
     }
   }
 
@@ -45,19 +47,34 @@ class SignUp extends React.Component {
     console.log(user);
 
     axios.post("https://freebie-project.herokuapp.com/users/add", user)
-      .then(res => console.log(res.data));
-
-    this.setState({
-      phone: '',
-      email: ''
-    })
+      .then(res => {
+        this.setState({
+          msg: res.data,
+          phone: '',
+          email: ''
+        })
+      });
   }
 
+  flash() {
+    const msg = this.state.msg;
+    if (msg !== "") {
+      return (
+        <Alert variant="success">
+          <span className='flash'>You Signed Up Successfully!</span>
+        </Alert>
+      )
+    }
+    return;
+  }
 
   render() {
     const { phone, email } = this.state;
     return (
       <div className='sign-up'>
+
+        {this.flash()}
+
         <form className='sign-up-form' onSubmit={this.onSubmit}>
 
           <FormInput
