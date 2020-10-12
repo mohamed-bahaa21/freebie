@@ -1,9 +1,12 @@
 # Freebie
 
-- Front-end
--- React
-- Backend
--- Server
---- Nodejs - Express
--- Database
---- MongoDB - mongoose
+
+├── Front-end
+├───── React
+├
+├── Backend
+├───── Server
+├──────── Nodejs - Express
+├
+├───── Database
+├──────── MongoDB - mongoose
